@@ -1,0 +1,204 @@
+Switchs – exercicios problema
+
+1- let idioma = prompt("Qual é o seu idioma?:")
+switch (idioma) {
+        case "portugues":
+        console.log("Olá!")
+        break;
+       case "english":
+        console.log("Hello!")
+        break;
+    case "espanhol":
+        console.log("Hola!")
+        break;
+    default:
+    console.log("Idioma não encontrado..."
+}
+
+
+2- let diadasemana = Number(prompt("Digite um número de 1 a 7 para saber o dia da semana:"))
+
+switch (diadasemana){
+    case 1:
+        console.log("Domingo")
+        break;
+        
+    case 2:
+        console.log("Segunda-Feira")
+        break;
+        
+    case 3:
+        console.log("Terça-Feira")
+        break;
+        
+    case 4:
+        console.log("Quarta-Feira")
+        break;
+        
+    case 5:
+        console.log("Quinta-Feira")
+        break;
+        
+    case 6:
+        console.log("Sexta-Feira")
+        break;
+        
+    case 7:
+        console.log("Sábado")
+        break;
+        
+    default:
+    console.log("Dia da semana não encontrado")
+}
+
+3-let transporte = Number(prompt("Digite um número para escolher o transporte:"))
+
+switch (transporte){
+    case 1:
+        console.log("Carro")
+        break;
+        
+    case 2: 
+        console.log("Moto")
+        break;
+        
+    case 3:
+        console.log("Bicicleta")
+        break;
+        
+    case 4: 
+        console.log("Ônibus")
+        break;
+        
+    case 5:
+        console.log("Trem")
+        break;
+        
+    default:
+    console.log("transporte não encontrado")
+}
+
+4-let urgencia = Number(prompt("Qual é nível de urgência de 1 a 3:"))
+
+switch (urgencia){
+    case 1: 
+        console.log("Baixa")
+        break;
+        
+    case 2:
+        console.log("Média")
+        break;
+        
+    case 3:
+        console.log("Alta")
+        break;
+        
+    default:
+    console.log("Coloque um número válido")
+}
+
+5-let veiculo = Number(prompt("Digite a categoria do veículo (compacto, SUV, caminhão ou moto(1 a 4):"))
+
+switch (veiculo){
+    case 1:
+        console.log("Compacto")
+        break;
+        
+    case 2:
+        console.log("SUV")
+        break;
+        
+    case 3:
+        console.log("Caminhão")
+        break;
+        
+    case 4:
+        console.log("Moto")
+        break;
+        
+    default:
+    console.log("Veiculo não encontrado")
+}
+
+
+6-let veiculo = prompt("Moto ou carro:")
+switch (veiculo){
+    case "carro":
+        console.log("1hora = 15,00")
+        break;
+    case "moto":
+        console.log("1hora = 7,50")
+        break;
+        
+    default:
+    console.log("Veiculo não aceito no estacionamento")
+}
+
+7-let dificuldade = Number(prompt("Digite um número para o nível de dificuldade (1 a 3):"))
+
+switch (dificuldade){
+    case 1:
+        console.log("Fácil")
+        break;
+        
+    case 2:
+        console.log("Médio")
+        break;
+        
+    case 3:
+        console.log("Difícil")
+        break;
+        
+    default:
+    console.log("Nível de dificuldade não encontrado")
+}
+
+8-let serviços = prompt("Qual serviço você busca?:")
+switch(serviços){
+    case "yoga":
+        console.log("150 reais por mês")
+        break;
+    case "musculação":
+        console.log("90 reais por mês")
+         break;
+         
+    case "personal trainer":
+        console.log("600 reais por mês")
+        break;
+        
+    default:
+    console.log("Não oferecemos esse serviço")
+}
+
+9-let categoria = prompt("Qual sua categoria? (estudante, criança de até 14 anos ou adulto):")
+switch (categoria){
+    case "adulto":
+        console.log("ingresso está 300 reais")
+        break;
+        
+    case "estudante":
+        console.log("O ingresso está 150 reais")
+        break;
+        
+    case "criança":
+        console.log("O ingresso está 69,90")
+        break;
+        
+    default:
+    console.log("Selecione uma das categorias para verificar ingressos")
+}
+
+10-let idade = Number(prompt("Digite sua idade para definir o nível de dificuldade dos exercícios:"))
+switch (true){
+    case (idade > 20):
+    console.log("Nível Avançado")
+    break;
+    
+    case (idade > 10):
+    console.log("Nível Itermediário")
+    break;
+    
+    case (idade < 10):
+    console.log("Nível Iniciante")
+    break;
+}
