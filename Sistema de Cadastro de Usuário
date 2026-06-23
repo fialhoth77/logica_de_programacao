@@ -1,0 +1,81 @@
+Parte 1- Dados Pessoais
+console.log("Precismos coloetar algumas informações!! 😍")
+console.log("Vamos começar com dados pessoais")
+let nome = prompt("\nDigete seu nome:")
+let sobrenome = prompt("Digite seu sobrenome:")
+let idade = Number(prompt("Digite sua idade:"))
+let datadenascimento = Number(prompt("Digite sua data de nascimento:"))
+let cpf = Number(prompt("Digete seu CPF:"))
+let rg = Number(prompt("Digite seu RG:"))
+let nacionalidade = prompt("Digite sua nacionalidade:")
+
+Parte 2 — Endereço
+console.log("\nEndereço")
+let rua = prompt("Nome da rua:")
+let numerocasa = Number(prompt("Número da casa:"))
+let bairro = prompt("Bairro:")
+let cidade = prompt("Cidade:")
+let cep = Number(prompt("CEP:"))
+let pais = Number(prompt("País:"))
+
+Parte 3 — Contato
+console.log("\nForrmas de contato")
+let telefoneprin = Number(prompt("Número principal:"))
+let telefonesecu = Number(prompt("Número secudário:"))
+let emailpessoal = prompt ("Digite seu email pessoal:")
+let emailprofissional = prompt("Digete seu email profissional:")
+let instagram = prompt("Qual seu instagram:")
+let linkedin = prompt("Qual seu linkedin:")
+
+Parte 4 — Informações Profissionais
+console.log("\nInformações pessoais")
+let profissao = prompt("Qual sua profissão:")
+let empresaatual = prompt("Qual sua empresa atual:")
+let cargo = prompt("Qual seu cargo atual:")
+let tempoexpe = Number(prompt("Quanto tempo você tem de experiência:"))
+let salarioatual = Number(prompt("Qual seu salário atual:"))
+let areaatuacao = prompt("Qual sua área de atuação:")
+
+Parte 5 — Formação Acadêmica
+console.log("\nFormação Acadêmica:")
+let escolaridade = prompt("Qual seu nível de escolaridade:")
+let curso = prompt("Quais seus cursos profisonalizantes:")
+let intuição = prompt("Você estudou em qual instituição:")
+let anodeinicio = Number(prompt("Ano de início do curso:"))
+let anodeconclusao = Number(prompt("Ano que de conclusão:"))
+let cursoadicional = prompt("Curso adicional realizado:")
+
+Parte 6 — Tecnologia
+console.log("\nTecnologia")
+let linguagemfav = prompt("Linguagem de programação favorita:")
+let editordecodigo = prompt("Editor de código utilizado:")
+let sistemaoperacional = prompt("Sistema operacional utilizado:")
+let quantashoras = Number(prompt("Quantas horas estuda por dia:"))
+let areatecnologia = prompt("Área da tecnologia que mais gosta:")
+
+Parte 7 — Preferências
+console.log("\nPreferências")
+let comidafav = prompt("Comida favorita:")
+let filmefav = prompt("Filme favorito:")
+let seriefav = prompt("Música favorita:")
+let corfav = prompt("Cor favorita")
+let hobby = prompt("Hobby:")
+
+Parte 8 — Objetivos
+console.log("\nObjetivos")
+let profissaosonhos = prompt("Profissão dos sonhos:")
+let empresaquequertrabalhar = prompt("Empresa onde gostaria de trabalhar:")
+let salaraiodesejado = Number(prompt("Salário desejado:"))
+let cidadequegostariademorar = prompt("Cidade onde gostaria de morar:")
+let paisquequervisitar = prompt("País que gostaria de visitar:")
+
+Parte 9 — Relatório Final
+//================================================================================
+console.log("\nAqui estão seus dados pessoais:",nome, sobrenome, idade,  datadenascimento, cpf, rg, nacionalidade )
+console.log("\nInformações de localizaões", rua, numerocasa, bairro, cidade, cep, pais)
+console.log("\nSuas informações de contato:", telefoneprin, telefonesecu, emailpessoal, emailprofissional, instagram, linkedin)
+console.log("\nInformações pessoais:", profissao, empresaatual, cargo, tempoexpe, salarioatual, areaatuacao)
+console.log("\nSuas informações acadêmicas:", escolaridade, curso, intuição, anodeinicio, anodeconclusao, cursoadicional)
+console.log("\nTecnologias de preferências:",linguagemfav, editordecodigo, sistemaoperacional, quantashoras, areatecnologia)
+console.log("\n Suas preferências:", comidafav, filmefav, seriefav, corfav, hobby )
+console.log("\nSeus obejtivos:",profissaosonhos, empresaquequertrabalhar, salaraiodesejado, cidadequegostariademorar, paisquequervisitar)
