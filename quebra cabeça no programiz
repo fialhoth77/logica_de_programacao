@@ -1,0 +1,41 @@
+/* let categoria 
+let idade = 27
+const nome = "Fernanda"
+if(idade >= 60){
+    categoria = "idosa"
+}else if (idade > 18 && idade < 60){
+    categoria = "adulta"
+} else if (idade > 12 && idade < 18){
+    categoria = "adolecente"
+}else{
+    categoria = "criança"
+}
+console.log("Idade", idade)
+console.log("usuaria", nome , "categoria", categoria
+)*/
+
+/*let idade = Number(prompt("Qual é a sua idade:"))
+if(idade >= 16){
+    console.log("Voto Facultativo")
+} else if (idade >= 16|| idade >= 70){
+    console.log("Voto Facultativo")
+}
+if (idade < 70 && idade >= 18){
+    console.log("Voto Obrigatório")
+} else if(idade < 16){
+    console.log("Não vota")
+}*/
+
+/*let numero = Number(prompt("Digite um número:"))
+if (numero < 0){
+    console.log("Negativo")
+} else if (numero > 0){
+    console.log("Positivo")
+}
+else if (numero == 0){
+    console.log("Zero")
+}
+else{
+    console.log("Numero não identificado")
+}
+*/
