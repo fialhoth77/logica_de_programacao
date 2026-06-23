@@ -1,0 +1,292 @@
+Primeiro quis: conhecimentos gerais
+let erros = 0
+let pontos = 0
+console.log("Será que você seu QI esta acima da média?")
+console.log("\nQual é a capital do Brasil?")
+console.log("a) Rio") 
+console.log("b) Brasília")
+console.log("c) São Paulo")
+let resposta = prompt("Qual alternativa certa?:")
+let respostacerta = "b"
+if(respostacerta === resposta){
+    pontos++
+    console.log("Resposta certa!✅")
+}
+else{
+    erros++
+    console.log("Resposta Errada!❌")
+} 
+
+console.log("------------------------------------------------------------")
+
+console.log("\nQuantos continentes existem no mundo?")
+console.log("a) 5") 
+console.log("b) 6")
+console.log("c) 7")
+let resposta1 = prompt("Qual alternativa certa?:")
+let respostacerta1 = "c"
+if(respostacerta1 === resposta1){
+    pontos++
+    console.log("Resposta certa!✅")
+}
+else{
+    erros++
+    console.log("Resposta Errada!❌")
+}
+
+console.log("------------------------------------------------------------")
+
+console.log("\nQual é o elemento químico representado por O?")
+console.log("a) Ouro") 
+console.log("b) Oxigênio")
+console.log("c) Prata")
+let resposta2 = prompt("Qual alternativa certa?:")
+let respostacerta2 = "b"
+if(respostacerta2 === resposta2){
+    pontos++
+    console.log("Resposta certa!✅")
+}
+else{
+    erros++
+    console.log("Resposta Errada!❌")
+}
+
+console.log("------------------------------------------------------------")
+
+console.log("\nQuantos jogadores de futebol tem em campo?")
+console.log("a) 20") 
+console.log("b) 11")
+console.log("c) 9")
+let resposta3 = prompt("Qual alternativa certa?:")
+let respostacerta3 = "a"
+if(respostacerta3 === resposta3){
+    pontos++
+    console.log("Resposta certa!✅")
+}
+else{
+    erros++
+    console.log("Resposta Errada!❌")
+}
+
+console.log("------------------------------------------------------------")
+
+console.log("\n Quem escreveu Dom Casmurro?")
+console.log("a) Machado de Assis") 
+console.log("b) José de Alencar")
+console.log("c) Monteiro Lobato")
+let resposta4 = prompt("Qual alternativa certa?:")
+let respostacerta4 = "a"
+if(respostacerta4 === resposta4){
+    pontos++
+    console.log("Resposta certa!✅")
+}
+else{
+    erros++
+    console.log("Resposta Errada!❌")
+}
+
+console.log("------------------------------------------------------------")
+
+console.log("\nVocê acertou:", pontos ,"e errou:", erros)
+
+Segundo quiz: as matérias da aula:
+let pontos = 0;
+let erros = 0;
+  
+console.log("Agora vamso verificar seus conhecimento em logica de programação e sistemas operacionais")
+ 
+ console.log("________________________________________________________________________________")
+
+ console.log("\nOque o operador && faz?")
+console.log("a) Retorna verdadeiro se UMA condição for verdadeira") 
+console.log("b) Retorna verdadeiro se TODAS forem verdadeiras")
+console.log("c) Retorna falso sempre")
+let resposta = prompt("Qual alternativa certa?:")
+let respostacerta = "b"
+if(respostacerta === resposta){
+    pontos++
+    console.log("Resposta certa!✅")
+}
+else{
+    erros++
+    console.log("Resposta Errada!❌")
+} 
+
+console.log("________________________________________________________________________________")
+
+console.log("\nQual sistema operacional é mais usado em servidores?")
+console.log("a) Windows") 
+console.log("b) Linux")
+console.log("c) macOS")
+let resposta1 = prompt("Qual alternativa certa?:")
+let respostacerta1 = "b"
+if(respostacerta1 === resposta1){
+    pontos++
+    console.log("Resposta certa!✅")
+}
+else{
+    erros++
+    console.log("Resposta Errada!❌")
+} 
+
+console.log("________________________________________________________________________________")
+
+
+console.log("\nQual ferramenta do Windows mostra processos em execução?")
+console.log("a) Bloco de Notas") 
+console.log("b) Paint")
+console.log("c) Gerenciador de tarefas")
+let resposta2 = prompt("Qual alternativa certa?:")
+let respostacerta2 = "c"
+if(respostacerta2 === resposta2){
+    pontos++
+    console.log("Resposta certa!✅")
+}
+else{
+    erros++
+    console.log("Resposta Errada!❌")
+} 
+
+console.log("________________________________________________________________________________")
+
+
+console.log("\nQual estrutura repete várias vezes?")
+console.log("a) if") 
+console.log("b) else")
+console.log("c) for")
+let resposta3 = prompt("Qual alternativa certa?:")
+let respostacerta3 = "c"
+if(respostacerta3 === resposta3){
+    pontos++
+    console.log("Resposta certa!✅")
+}
+else{
+    erros++
+    console.log("Resposta Errada!❌")
+} 
+
+
+console.log("________________________________________________________________________________")
+
+
+ console.log("\nO que é o kernel?")
+console.log("a) Núcleo do sistema") 
+console.log("b) Interface gráfica")
+console.log("c) Um aplicativo")
+let resposta4 = prompt("Qual alternativa certa?:")
+let respostacerta4 = "a"
+if(respostacerta4 === resposta4){
+    pontos++
+    console.log("Resposta certa!✅")
+}
+else{
+    erros++
+    console.log("Resposta Errada!❌")
+} 
+
+
+console.log("________________________________________________________________________________")
+
+
+console.log("\nVocê acertou:", pontos ,"e errou:", erros)
+
+Terceiro quiz: tema de escolha:
+let pontos = 0;
+let erros = 0;
+  
+console.log("Agora vamos verificar seus conhecimento futebolistico")
+ 
+ console.log("________________________________________________________________________________")
+
+ console.log("\nQuem ganhou a Copa do Mundo de 2002?")
+console.log("a) Alemanha") 
+console.log("b) Brasil")
+console.log("c) França")
+let resposta = prompt("Qual alternativa certa?:")
+let respostacerta = "b"
+if(respostacerta === resposta){
+    pontos++
+    console.log("Resposta certa!✅")
+}
+else{
+    erros++
+    console.log("Resposta Errada!❌")
+} 
+
+console.log("________________________________________________________________________________")
+
+console.log("\nQuantos jogadores um time tem em campo?")
+console.log("a) 11") 
+console.log("b) 10")
+console.log("c) 12")
+let resposta1 = prompt("Qual alternativa certa?:")
+let respostacerta1 = "a"
+if(respostacerta1 === resposta1){
+    pontos++
+    console.log("Resposta certa!✅")
+}
+else{
+    erros++
+    console.log("Resposta Errada!❌")
+} 
+
+console.log("________________________________________________________________________________")
+
+
+console.log("\nQuem é conhecido como Rei do Futebol?")
+console.log("a) Messi") 
+console.log("b) Cristiano Ronaldo")
+console.log("c) Pelé")
+let resposta2 = prompt("Qual alternativa certa?:")
+let respostacerta2 = "c"
+if(respostacerta2 === resposta2){
+    pontos++
+    console.log("Resposta certa!✅")
+}
+else{
+    erros++
+    console.log("Resposta Errada!❌")
+} 
+
+console.log("________________________________________________________________________________")
+
+
+console.log("\nEm que país surgiu o futebol moderno?")
+console.log("a) Brasil") 
+console.log("b) Espanha")
+console.log("c) Inglaterra")
+let resposta3 = prompt("Qual alternativa certa?:")
+let respostacerta3 = "c"
+if(respostacerta3 === resposta3){
+    pontos++
+    console.log("Resposta certa!✅")
+}
+else{
+    erros++
+    console.log("Resposta Errada!❌")
+} 
+
+
+console.log("________________________________________________________________________________")
+
+
+ console.log("\nQual clube brasileiro tem mais títulos da Libertadores?")
+console.log("a) Flamengo") 
+console.log("b) Palmeiras")
+console.log("c) Santos")
+let resposta4 = prompt("Qual alternativa certa?:")
+let respostacerta4 = "b"
+if(respostacerta4 === resposta4){
+    pontos++
+    console.log("Resposta certa!✅")
+}
+else{
+    erros++
+    console.log("Resposta Errada!❌")
+} 
+
+
+console.log("________________________________________________________________________________")
+
+
+console.log("\nVocê acertou:", pontos ,"e errou:", erros)
