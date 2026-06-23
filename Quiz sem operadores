@@ -1,0 +1,110 @@
+let respostaincorreta = 0
+let respostacorreta = 0
+console.log("1 - Qual é a capital do Brasil?")
+console.log("A - Rio de Janeiro \nB - Brasília \nC - São Paulo")
+let alternativa1 = prompt("\nQual a alternativa correta:")
+switch (alternativa1){
+    case "B":
+      console.log("Alternativa correta!!❤️❤")
+      break;
+    respostacorreta ++
+    
+    case "b":
+      console.log("Alternativa correta!!❤️❤")
+      break;
+    respostacorreta ++ 
+    
+    default:
+    console.log("Resposta incorreta! 😣")
+    respostaincorreta ++
+    
+}
+
+console.log("\n2 - Quanto é 5 + 3?")
+console.log("A - 6 \nB - 8 \nC - 10")
+let alternativa2 = prompt("\nQual a aleternativa correta:")
+switch(alternativa2){
+    case "B":
+        console.log("Alternativa correta!!❤️❤")
+        break;
+        respostacorreta ++
+        
+    case "b":
+         console.log("Alternativa correta!!❤️❤")
+        break;
+        respostacorreta ++
+       
+       default:
+       console.log("Resposta incorreta! 😣")
+       respostaincorreta ++
+}
+
+
+
+
+
+console.log("\n3 - Qual é a cor do céu em um dia claro?")
+console.log("A - Verde \nB - Vermelho \nC - Azul")
+let alternativa3 = prompt("\nQual a aleternativa correta:")
+switch(alternativa3){
+    case "C":
+        console.log("Alternativa correta!!❤️❤")
+        break;
+        respostacorreta ++
+        
+    case "c":
+         console.log("Alternativa correta!!❤️❤")
+        break;
+        respostacorreta ++
+       
+       default:
+       console.log("Resposta incorreta! 😣")
+       respostaincorreta ++
+}
+
+
+
+
+
+console.log("\n4 - Qual linguagem estamos usando?")
+console.log("A - Python \nB - JavaScript \nC - C++")
+let alternativa4 = prompt("\nQual a aleternativa correta:")
+switch(alternativa3){
+    case "B":
+        console.log("Alternativa correta!!❤️❤")
+        break;
+        respostacorreta ++
+        
+    case "b":
+         console.log("Alternativa correta!!❤️❤")
+        break;
+        respostacorreta ++
+       
+       default:
+       console.log("Resposta incorreta! 😣")
+       respostaincorreta ++
+}
+
+
+
+console.log("\n5 - Quantos dias tem uma semana?")
+console.log("A - 7 \nB - 5 \nC - 10")
+let alternativa5 = prompt("\nQual a aleternativa correta:")
+switch(alternativa3){
+    case "A":
+        console.log("Alternativa correta!!❤️❤")
+        break;
+        respostacorreta ++
+        
+    case "a":
+         console.log("Alternativa correta!!❤️❤")
+        break;
+        respostacorreta ++
+       
+       default:
+       console.log("Resposta incorreta! 😣")
+       respostaincorreta ++
+}
+
+console.log(respostacorreta)
+console.log(respostaincorreta)
