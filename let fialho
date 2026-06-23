@@ -1,0 +1,80 @@
+let fialho = "Fialho"
+let senhaF = "suzana"
+
+let vini = "Vinicius"
+let senhaV = "sonia"
+
+let marcelo = "Marcelo"
+let senhaM = "vanessa"
+
+let victor = "Victor"
+let senhaVI = "fabiane"
+
+let isabelle = "Isabelle"
+let senhaI = "sandra"
+
+let samyra = "Samyra"
+let senhaS = "sabrina"
+
+let julia = "Julia"
+let senhaJ = "janaina"
+
+let larissa = "Larissa"
+let senhaL = "cristoiane"
+
+let rebeca = "Rebeca"
+let senhaR = "michele"
+
+let caua = "Caua"
+let senhaC = "camila"
+
+let usu1 = prompt("Digite seu usuario:")
+let senha1 = Number(prompt("Digite sua senha:"))
+
+function login(usudigitado , senhadigitada){
+    switch (true){
+        case (usu1 == fialho && senha1 == senhaF):
+            console.log("Acesso liberado")
+            break;
+            
+        case (usu1 == vini && senha1 == senhaV):
+            console.log("Acesso liberado")
+            break;
+            
+        case (usu1 == marcelo && senha1 == senhaM):
+            console.log("Acesso liberado")
+            break;
+            
+        case (usu1 == victor && senha1 == senhaVI):
+            console.log("Acesso liberado")
+            break;
+            
+        case (usu1 == isabelle && senha1 == senhaI):
+            console.log("Acesso liberado")
+            break;
+            
+        case (usu1 == samyra && senha1 == senhaS):
+            console.log("Acesso liberado")
+            break;
+            
+        case (usu1 == julia && senha1 == senhaJ):
+            console.log("Acesso liberado")
+            break;
+            
+        case (usu1 == larissa && senha1 == senhaL):
+            console.log("Acesso liberado")
+            break;
+            
+        case (usu1 == rebeca && senha1 == senhaR):
+            console.log("Acesso liberado")
+            break; 
+            
+        case (usu1 == caua && senha1 == senhaC):
+            console.log("Acesso liberado")
+            break; 
+            
+        default:
+        console.log("Acesso Negado")
+        
+    }
+} login(usu1 , senha1);
