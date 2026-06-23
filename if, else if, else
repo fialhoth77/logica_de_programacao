@@ -1,0 +1,58 @@
+Primeiro:
+let nome = prompt("Digite seu nome:")
+console.log("Seja bem-vindo", nome)
+
+let idade = Number(prompt("\nDigite sua idade:"))
+if (idade >= 18){
+    console.log("Você é maior de idade")
+}
+else if (idade <= 18){
+    console.log("Você é menor de idade")
+}
+
+Segundo:
+let num1 = Number(prompt("Digite o primeiro número:"))
+let num2 = Number(prompt("Digite o segundo número:"))
+if (num1 > num2){
+    console.log("O primeiro número é maior")
+}
+else if (num1 < num2){
+    console.log("O segundo número é maior")
+}
+else{
+    console.log("Os valores são iguais")
+}
+
+Terceiro:
+let usuario = "matheus"
+let senha = 12345
+let usu = prompt("Digite seu usuario:")
+let senhas = Number(prompt("Digite sua senha:"))
+
+if (usuario === usu && senha === senhas){
+    console.log("Acesso correto!")
+}
+if (usuario !== usu && senha === senhas){
+    console.log("Usuario incorreto")
+}
+else if (usuario === usu && senha !== senhas){
+    console.log("Senha incorreta")
+}
+
+Quarto:
+let num = Number(prompt("Digite um número para ver a tabuada:"))
+if (num === num ){
+    console.log(num + " x 1 = " + (num*1))
+     console.log(num +" x 2 = " + (num*2))
+    console.log(num + " x 3 = "  + (num*3))
+    console.log(num + " x 4 = "  + (num*4))
+    console.log(num + " x 5 = "  + (num*5))
+    console.log(num + " x 6 = "  + (num*6))
+    console.log(num + " x 7 = "  + (num*7))
+    console.log(num + " x 8 = "  + (num*8))
+    console.log(num + " x 9 = "  + (num*9))
+    console.log(num + " x 10 = "  + (num*10))
+}
+else{
+    console.log("Valor Incorreto!")
+}
